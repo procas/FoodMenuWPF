@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodListDataBinding", "FoodListDataBinding\FoodListDataBinding.csproj", "{162D0712-5104-49AC-A26A-87EDF39751BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{162D0712-5104-49AC-A26A-87EDF39751BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162D0712-5104-49AC-A26A-87EDF39751BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162D0712-5104-49AC-A26A-87EDF39751BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162D0712-5104-49AC-A26A-87EDF39751BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0081DE4A-3799-4438-902B-2D1C0BAD627E}
+	EndGlobalSection
+EndGlobal
