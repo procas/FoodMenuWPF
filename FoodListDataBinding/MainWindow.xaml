@@ -29,7 +29,7 @@
         </Grid.RowDefinitions>
         <Label Grid.Row="0"
                Content="Pro's Restaurant"
-               FontSize="24"/>
+               FontSize="24" Margin="306,0,-306,0"/>
         <ListBox x:Name="ListBox1" Grid.Row="1"
                  ItemsSource="{Binding Source={StaticResource odpFood}}" SelectionChanged="ListBox_SelectionChanged"
                  MouseLeftButtonDown="ListBox_MouseLeftButtonDown">

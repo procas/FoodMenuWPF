@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>FoodListDataBinding</id>
+    <version>1.0.0</version>
+    <authors>FoodListDataBinding</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Proma_Mukherjee\source\repos\FoodListDataBinding\FoodListDataBinding\bin\Debug\net6.0-windows\FoodListDataBinding.runtimeconfig.json" target="lib\net6.0-windows7.0\FoodListDataBinding.runtimeconfig.json" />
+    <file src="C:\Users\Proma_Mukherjee\source\repos\FoodListDataBinding\FoodListDataBinding\bin\Debug\net6.0-windows\FoodListDataBinding.dll" target="lib\net6.0-windows7.0\FoodListDataBinding.dll" />
+  </files>
+</package>
