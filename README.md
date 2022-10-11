@@ -4,4 +4,4 @@ A simple food menu app as we can expect to see while window shopping on any onli
 
 ![image](https://user-images.githubusercontent.com/37955433/195114807-de3143f4-3a75-4363-b150-f06f292e1fa0.png)
 
-![image](https://user-images.githubusercontent.com/37955433/195115624-871097a1-4a0c-454a-9644-f3daf530660b.png)
+![image](https://user-images.githubusercontent.com/37955433/195127266-1b7e3139-e244-4e7e-995d-36eb00bd75a5.png)
