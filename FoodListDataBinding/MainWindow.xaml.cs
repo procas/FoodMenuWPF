@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FoodListDataBinding.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,7 @@ namespace FoodListDataBinding
     /// </summary>
     public partial class MainWindow : Window
     {
+        public DetailsPage DetailsPage;
         public MainWindow()
         {
             InitializeComponent();
@@ -27,7 +29,16 @@ namespace FoodListDataBinding
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            var s = (FoodClass)ListBox1.SelectedItem;
+            //MessageBox.Show(s.FoodName+"\n\n"+s.Description);
+            DetailsFrame.NavigationService.Navigate(new DetailsPage(s.FoodName, s.Description, s.ImageSource));
+            
+        }
 
+        private void ListBox_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            var item = ItemsControl.ContainerFromElement(sender as ListBox, e.OriginalSource as DependencyObject) as ListBoxItem;
+            
         }
     }
 }

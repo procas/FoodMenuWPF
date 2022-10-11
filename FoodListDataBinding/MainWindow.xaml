@@ -13,7 +13,7 @@
 
         </ObjectDataProvider>
     </Window.Resources>
-    <Grid>
+    <Grid Margin="0,0,400,0">
         <!--<Grid.Resources>
             <ObjectDataProvider x:Key="odpFood"
                             ObjectType="{x:Type local:Foods}"
@@ -30,8 +30,9 @@
         <Label Grid.Row="0"
                Content="Pro's Restaurant"
                FontSize="24"/>
-        <ListBox Grid.Row="1"
-                 ItemsSource="{Binding Source={StaticResource odpFood}}" SelectionChanged="ListBox_SelectionChanged">
+        <ListBox x:Name="ListBox1" Grid.Row="1"
+                 ItemsSource="{Binding Source={StaticResource odpFood}}" SelectionChanged="ListBox_SelectionChanged"
+                 MouseLeftButtonDown="ListBox_MouseLeftButtonDown">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Grid>
@@ -42,13 +43,14 @@
                         </Grid.ColumnDefinitions>
                         <Image Grid.Column="0" Source="{Binding ImageSource}" Height="30" Width="30" IsEnabled="True"/>
                         <StackPanel Width="167" Grid.Column="1">
-                            <TextBlock Text="{Binding FoodName}" FontSize="20"/>
+                            <TextBlock x:Name="FoodNameText" Text="{Binding FoodName}" FontSize="20"/>
                             <TextBlock Text="{Binding TypeFood}"/>
                         </StackPanel>
                         <Label Grid.Column="2" FontSize="15" Content="{Binding Price}"></Label>
                     </Grid>
                 </DataTemplate>
-            </ListBox.ItemTemplate>   
+            </ListBox.ItemTemplate>
         </ListBox>
+        <Frame Name="DetailsFrame" Content="Frame" Grid.Row="1" Margin="405,0,-399,0" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

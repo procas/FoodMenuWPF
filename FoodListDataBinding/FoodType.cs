@@ -10,6 +10,8 @@ namespace FoodListDataBinding
     {
         FastFood,
         Meal,
-        Snacks
+        Snacks,
+        Dessert,
+        Beverage
     }
 }

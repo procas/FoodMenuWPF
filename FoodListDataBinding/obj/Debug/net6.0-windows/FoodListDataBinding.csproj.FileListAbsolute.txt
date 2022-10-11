@@ -20,3 +20,5 @@ C:\Users\Proma_Mukherjee\source\repos\FoodListDataBinding\FoodListDataBinding\ob
 C:\Users\Proma_Mukherjee\source\repos\FoodListDataBinding\FoodListDataBinding\obj\Debug\net6.0-windows\FoodListDataBinding.pdb
 C:\Users\Proma_Mukherjee\source\repos\FoodListDataBinding\FoodListDataBinding\obj\Debug\net6.0-windows\FoodListDataBinding.genruntimeconfig.cache
 C:\Users\Proma_Mukherjee\source\repos\FoodListDataBinding\FoodListDataBinding\obj\Debug\net6.0-windows\ref\FoodListDataBinding.dll
+C:\Users\Proma_Mukherjee\source\repos\FoodListDataBinding\FoodListDataBinding\obj\Debug\net6.0-windows\Pages\DetailsPage.g.cs
+C:\Users\Proma_Mukherjee\source\repos\FoodListDataBinding\FoodListDataBinding\obj\Debug\net6.0-windows\Pages\DetailsPage.baml
